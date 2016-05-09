@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211CF30C1C3DA7F50015BECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CF30B1C3DA7F50015BECE /* AppDelegate.swift */; };
+		211CF30E1C3DA7F50015BECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CF30D1C3DA7F50015BECE /* ViewController.swift */; };
+		211CF3111C3DA7F50015BECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211CF30F1C3DA7F50015BECE /* Main.storyboard */; };
+		211CF3131C3DA7F50015BECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211CF3121C3DA7F50015BECE /* Assets.xcassets */; };
+		211CF3161C3DA7F50015BECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211CF3141C3DA7F50015BECE /* LaunchScreen.storyboard */; };
+		211CF3211C3DA7F50015BECE /* PrayosaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CF3201C3DA7F50015BECE /* PrayosaTests.swift */; };
+		211CF32C1C3DA7F50015BECE /* PrayosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CF32B1C3DA7F50015BECE /* PrayosaUITests.swift */; };
+		2173CABF1C750CB4000CC382 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173CABE1C750CB4000CC382 /* CustomSegue.swift */; };
+		2173CAC31C7649B1000CC382 /* Endgameview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173CAC21C7649B1000CC382 /* Endgameview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211CF31D1C3DA7F50015BECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211CF3001C3DA7F50015BECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211CF3071C3DA7F50015BECE;
+			remoteInfo = Prayosa;
+		};
+		211CF3281C3DA7F50015BECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211CF3001C3DA7F50015BECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211CF3071C3DA7F50015BECE;
+			remoteInfo = Prayosa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2106CA0E1C6B342800331042 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		211CF3081C3DA7F50015BECE /* NumberChase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberChase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211CF30B1C3DA7F50015BECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		211CF30D1C3DA7F50015BECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		211CF3101C3DA7F50015BECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211CF3121C3DA7F50015BECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211CF3151C3DA7F50015BECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		211CF3171C3DA7F50015BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211CF31C1C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211CF3201C3DA7F50015BECE /* PrayosaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayosaTests.swift; sourceTree = "<group>"; };
+		211CF3221C3DA7F50015BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211CF3271C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211CF32B1C3DA7F50015BECE /* PrayosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayosaUITests.swift; sourceTree = "<group>"; };
+		211CF32D1C3DA7F50015BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2173CABE1C750CB4000CC382 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		2173CAC21C7649B1000CC382 /* Endgameview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endgameview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211CF3051C3DA7F50015BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF3191C3DA7F50015BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF3241C3DA7F50015BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211CF2FF1C3DA7F50015BECE = {
+			isa = PBXGroup;
+			children = (
+				211CF30A1C3DA7F50015BECE /* Prayosa */,
+				211CF31F1C3DA7F50015BECE /* PrayosaTests */,
+				211CF32A1C3DA7F50015BECE /* PrayosaUITests */,
+				211CF3091C3DA7F50015BECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		211CF3091C3DA7F50015BECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211CF3081C3DA7F50015BECE /* NumberChase.app */,
+				211CF31C1C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */,
+				211CF3271C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211CF30A1C3DA7F50015BECE /* Prayosa */ = {
+			isa = PBXGroup;
+			children = (
+				211CF30B1C3DA7F50015BECE /* AppDelegate.swift */,
+				211CF30D1C3DA7F50015BECE /* ViewController.swift */,
+				2173CABE1C750CB4000CC382 /* CustomSegue.swift */,
+				211CF30F1C3DA7F50015BECE /* Main.storyboard */,
+				2173CAC21C7649B1000CC382 /* Endgameview.swift */,
+				211CF3121C3DA7F50015BECE /* Assets.xcassets */,
+				211CF3141C3DA7F50015BECE /* LaunchScreen.storyboard */,
+				211CF3171C3DA7F50015BECE /* Info.plist */,
+			);
+			path = Prayosa;
+			sourceTree = "<group>";
+		};
+		211CF31F1C3DA7F50015BECE /* PrayosaTests */ = {
+			isa = PBXGroup;
+			children = (
+				211CF3201C3DA7F50015BECE /* PrayosaTests.swift */,
+				211CF3221C3DA7F50015BECE /* Info.plist */,
+			);
+			path = PrayosaTests;
+			sourceTree = "<group>";
+		};
+		211CF32A1C3DA7F50015BECE /* PrayosaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				211CF32B1C3DA7F50015BECE /* PrayosaUITests.swift */,
+				211CF32D1C3DA7F50015BECE /* Info.plist */,
+			);
+			path = PrayosaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211CF3071C3DA7F50015BECE /* Numberchase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211CF3301C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "Numberchase" */;
+			buildPhases = (
+				211CF3041C3DA7F50015BECE /* Sources */,
+				211CF3051C3DA7F50015BECE /* Frameworks */,
+				211CF3061C3DA7F50015BECE /* Resources */,
+				2106CA0E1C6B342800331042 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numberchase;
+			productName = Prayosa;
+			productReference = 211CF3081C3DA7F50015BECE /* NumberChase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		211CF31B1C3DA7F50015BECE /* NumberchaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211CF3331C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "NumberchaseTests" */;
+			buildPhases = (
+				211CF3181C3DA7F50015BECE /* Sources */,
+				211CF3191C3DA7F50015BECE /* Frameworks */,
+				211CF31A1C3DA7F50015BECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211CF31E1C3DA7F50015BECE /* PBXTargetDependency */,
+			);
+			name = NumberchaseTests;
+			productName = PrayosaTests;
+			productReference = 211CF31C1C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		211CF3261C3DA7F50015BECE /* NumberchaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211CF3361C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "NumberchaseUITests" */;
+			buildPhases = (
+				211CF3231C3DA7F50015BECE /* Sources */,
+				211CF3241C3DA7F50015BECE /* Frameworks */,
+				211CF3251C3DA7F50015BECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211CF3291C3DA7F50015BECE /* PBXTargetDependency */,
+			);
+			name = NumberchaseUITests;
+			productName = PrayosaUITests;
+			productReference = 211CF3271C3DA7F50015BECE /* NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211CF3001C3DA7F50015BECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Panth Patel";
+				TargetAttributes = {
+					211CF3071C3DA7F50015BECE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W27J4T722F;
+					};
+					211CF31B1C3DA7F50015BECE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T5BCCGNH77;
+						TestTargetID = 211CF3071C3DA7F50015BECE;
+					};
+					211CF3261C3DA7F50015BECE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T5BCCGNH77;
+						TestTargetID = 211CF3071C3DA7F50015BECE;
+					};
+				};
+			};
+			buildConfigurationList = 211CF3031C3DA7F50015BECE /* Build configuration list for PBXProject "NumberChase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211CF2FF1C3DA7F50015BECE;
+			productRefGroup = 211CF3091C3DA7F50015BECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211CF3071C3DA7F50015BECE /* Numberchase */,
+				211CF31B1C3DA7F50015BECE /* NumberchaseTests */,
+				211CF3261C3DA7F50015BECE /* NumberchaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211CF3061C3DA7F50015BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211CF3161C3DA7F50015BECE /* LaunchScreen.storyboard in Resources */,
+				211CF3131C3DA7F50015BECE /* Assets.xcassets in Resources */,
+				211CF3111C3DA7F50015BECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF31A1C3DA7F50015BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF3251C3DA7F50015BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211CF3041C3DA7F50015BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173CAC31C7649B1000CC382 /* Endgameview.swift in Sources */,
+				211CF30E1C3DA7F50015BECE /* ViewController.swift in Sources */,
+				2173CABF1C750CB4000CC382 /* CustomSegue.swift in Sources */,
+				211CF30C1C3DA7F50015BECE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF3181C3DA7F50015BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211CF3211C3DA7F50015BECE /* PrayosaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211CF3231C3DA7F50015BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211CF32C1C3DA7F50015BECE /* PrayosaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211CF31E1C3DA7F50015BECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211CF3071C3DA7F50015BECE /* Numberchase */;
+			targetProxy = 211CF31D1C3DA7F50015BECE /* PBXContainerItemProxy */;
+		};
+		211CF3291C3DA7F50015BECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211CF3071C3DA7F50015BECE /* Numberchase */;
+			targetProxy = 211CF3281C3DA7F50015BECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		211CF30F1C3DA7F50015BECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211CF3101C3DA7F50015BECE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211CF3141C3DA7F50015BECE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211CF3151C3DA7F50015BECE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211CF32E1C3DA7F50015BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211CF32F1C3DA7F50015BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211CF3311C3DA7F50015BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Prayosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panthpatel.NumberChase;
+				PRODUCT_NAME = NumberChase;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211CF3321C3DA7F50015BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Prayosa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panthpatel.NumberChase;
+				PRODUCT_NAME = NumberChase;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		211CF3341C3DA7F50015BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrayosaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prayosa.PrayosaTests;
+				PRODUCT_NAME = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		211CF3351C3DA7F50015BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrayosaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prayosa.PrayosaTests;
+				PRODUCT_NAME = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		211CF3371C3DA7F50015BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrayosaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prayosa.PrayosaUITests;
+				PRODUCT_NAME = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = Prayosa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		211CF3381C3DA7F50015BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrayosaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prayosa.PrayosaUITests;
+				PRODUCT_NAME = NumberChase.temp_caseinsensitive_rename.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = Prayosa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211CF3031C3DA7F50015BECE /* Build configuration list for PBXProject "NumberChase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211CF32E1C3DA7F50015BECE /* Debug */,
+				211CF32F1C3DA7F50015BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211CF3301C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "Numberchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211CF3311C3DA7F50015BECE /* Debug */,
+				211CF3321C3DA7F50015BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211CF3331C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "NumberchaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211CF3341C3DA7F50015BECE /* Debug */,
+				211CF3351C3DA7F50015BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211CF3361C3DA7F50015BECE /* Build configuration list for PBXNativeTarget "NumberchaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211CF3371C3DA7F50015BECE /* Debug */,
+				211CF3381C3DA7F50015BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211CF3001C3DA7F50015BECE /* Project object */;
+}
